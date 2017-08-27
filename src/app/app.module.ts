@@ -9,6 +9,7 @@ import { ProfilComponent } from './components/profil/profil.component';
 import { EditionProfilComponent } from './components/edition-profil/edition-profil.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { UtilisateursService } from './services/utilisateurs.service';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { UtilisateursService } from './services/utilisateurs.service';
     DashboardComponent,
     ProfilComponent,
     EditionProfilComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
